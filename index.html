@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+
+<div class="container">
+    <h1>Rock Paper Scissors</h1>
+    <p style="font-size: 2rem; margin-top: 1rem; color:rgb(30, 30, 77) ;">The Game target is: <b id="game-target-element"></b></p>
+    <div class="boxes">
+    <div class="box" id="rock">
+        <img src="./assets/rock.png" alt="">
+    </div>
+
+    <div class="box" id="paper">
+        <img src="./assets/paper.png" alt="">
+    </div>
+
+    <div class="box" id="scissors">
+        <img src="./assets/scissors.png" alt="">
+    </div>
+</div>
+
+
+<div class="score-board">
+    <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+    </div>
+
+    <div class="score">
+        <p id="computer-score">0</p>
+        <p>Computer</p>
+    </div>
+</div>
+
+<div class="msg-container">
+    <p id="msg">Play  your  Move</p>
+</div>
+ 
+<div>
+    <input type="number" name="" id="goal" min="10" >
+<button class="btn" id="goal-btn" >Set Game Target</button>
+
+</div>
+
+</div>
+
+<body>
+    
+    <script src="script.js"></script>
+</body>
+</html>
